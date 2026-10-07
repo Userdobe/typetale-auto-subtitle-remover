@@ -1,0 +1,10 @@
+{
+  "name": "字字动画自动去字幕",
+  "version": "1.0.0",
+  "entry": "remove_subtitles.py",
+  "type": "post_export_watcher",
+  "platform": "Windows",
+  "requires": ["Python 3.10+", "FFmpeg", "opencv-python", "numpy"],
+  "output": "{input_stem}_no_subtitles.mp4",
+  "official_native_hook": false
+}

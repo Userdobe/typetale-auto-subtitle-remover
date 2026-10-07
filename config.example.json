@@ -1,0 +1,13 @@
+{
+  "watch_dir": "D:/TypeTale/outputs",
+  "output_suffix": "_no_subtitles",
+  "video_extensions": [".mp4", ".mov", ".mkv", ".webm"],
+  "subtitle_region": "bottom",
+  "bottom_ratio": 0.28,
+  "mask_padding": 10,
+  "inpaint_radius": 3,
+  "inpaint_method": "telea",
+  "poll_seconds": 3,
+  "keep_audio": true,
+  "overwrite": false
+}
